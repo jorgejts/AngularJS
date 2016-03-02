@@ -1,0 +1,187 @@
+html, body,h1{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	height: 100%;
+}
+body{
+	background-color: #7E5134;
+	height: 100%;
+}
+.pantalla{
+	height: 96%;
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+.logo{
+	text-align:center;
+}
+#principal{
+	height: 95%;
+	background: #fff;
+}
+#loadPicture{
+	height: 100%;
+}
+.inputs{
+	position: relative;
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding: 15px 0px;
+}
+.picturePreview{
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+}
+.picturePreview>img{
+	max-height: 100%;
+	overflow-x: hidden;
+}
+
+.buttons{
+	padding:5px;
+}
+.rounded-top{
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.rounded-bottom{
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.rounded-right{
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.rounded-left{
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.logo>h1{
+	color:#fff;
+	font-family: Playball, times, serif;
+	font-size: 300%;
+}
+#wwi{
+	font-family: Libre Baskerville, times, serif;
+}
+#wwii{
+	font-family: Black Ops One, times, serif;
+}
+#korea{
+	font-family: Noto Serif, times, serif;
+}
+#nam{
+	font-family: Stardos Stencil, times, serif;
+}
+#final{
+	max-height: 100%;
+	margin: auto;
+}
+
+/*-----------------CUSTOMIZE-------------------------------------------*/
+
+
+#customizePicture{
+	height: 100%;
+	overflow-x: scroll;
+	text-align: center;
+	overflow-y: hidden;
+}
+
+#inputSave{
+	width: 100%;
+	text-align: center;
+}
+.warButtons{
+	width: 100%;
+	height: 50%;
+}
+.wars{
+	position: relative;
+	float:left;
+	width: 25%;
+	height: 100%;
+	cursor: pointer;
+	color:#fff;
+	font-size: 150%;
+	background-color:#7E5134;
+	text-align: center;
+}
+.wars>p{
+	position: relative;
+	bottom:10px;
+}
+.wars.active{
+	background-color: #41533B;
+}
+.warOptions{
+	position: relative;
+	height: 50%;
+	overflow: hidden;
+}
+.options{
+	position: absolute;
+	top:0px;
+	left: 100%;
+	-webkit-transition: left 2s,top 1s;
+	-moz-transition: left 2s,top 1s;
+	-o-transition: left 2s,top 1s;
+	transition: left 2s,top 1s;
+	width: 100%;
+	overflow: hidden;
+}
+.options.active{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.options.active.activeUp{
+	position: absolute;
+	left: 0px;
+	top: -100%;
+}
+.option{
+	width: 25%;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+/*---------------WAITING-----------------------------------------------*/
+#greating{
+	text-align: center;
+	font-family: Playball, times, serif;
+}
+
+
+/*---------------BOTONES-----------------------------------------------*/
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label,.btn {
+   border : solid 1px #c0c0c0;
+	border-radius : 6px;
+	moz-border-radius : 6px;
+	font-size : 20px;
+    color : #666;
+    background-color : #eee;
+    padding : 0px 10px;
+    margin-top: 10px;
+    display: inline-block;
+    font-family: arial,sans-serif;
+    cursor: pointer;
+}
+.inputfile + label:hover,
+.btn:hover{
+    background-color: #ccc;
+}
+

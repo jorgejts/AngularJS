@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="aplication">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="title" content="War Filters">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="language" content="es-ES">
+	<meta name="date" content="Diciembre 2015">
+	<meta name="robots" content="none">
+	<meta name="copyright" content="Jorge Treviño Soteras">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="./images/favicon.png">
+	<title>War Filters</title>
+	<link href="./css/style.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Playball|Black+Ops+One|Noto+Serif:700|Stardos+Stencil:700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<div class="pantalla">
+		<div class="logo" style="height:10%;">
+			<h1>War Filters</h1>
+		</div>
+		<div class="rounded-top rounded-bottom" style="height:90%;" id="principal">
+			<div style="height:100%;" ng-view></div>
+		</div>
+	</div>
+	<script src="./scripts/angular.js" type="text/javascript"></script> 
+	<script src="./scripts/angular-route.js" type="text/javascript"></script> 
+	<script src="./js/app.js" type="text/javascript"></script> 
+	<script src="./scripts/caman.js" type="text/javascript"></script> 
+	<script src="./js/routes.js" type="text/javascript"></script> 
+	<script src="./js/directives/warPanels.js" type="text/javascript"></script>	
+ 
+	
+</body>
+</html>

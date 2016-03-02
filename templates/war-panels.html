@@ -1,0 +1,66 @@
+<div style="height:20%;">
+	<div class="warButtons">
+		<div class="wars" ng-class="{ active:panel.isSelected(1)}" id="wwi" ng-click="panel.selectTab(1)"><p>WWI</p></div>
+		<div class="wars" ng-class="{ active:panel.isSelected(2)}" id="wwii" ng-click="panel.selectTab(2)"><p>WWII</p></div>
+		<div class="wars" ng-class="{ active:panel.isSelected(3)}" id="korea" ng-click="panel.selectTab(3)"><p>Korea</p></div>
+		<div class="wars" ng-class="{ active:panel.isSelected(4)}" id="nam" ng-click="panel.selectTab(4)"><p>NAM</p></div>
+	</div>
+	<div class="warOptions">
+		<div class="options" ng-class="{ active:panel.isSelected(1)}">
+			<div class="option">
+				<input type="button" value="WWI" name="WWI" class="btn" ng-click="customize(0,-100,10,0,0,2,12,0,0,0,11,0,'WWI')"/>
+			</div>
+			<div class="option">
+				<input type="button" value="action" name="action" class="btn" ng-click="customize(0,-100,10,0,0,3,12,0,0,0,11,0,'WWI')"/>
+			</div>
+			<div class="option">
+				<input type="button" value="sepia" name="sepia" class="btn" ng-click="customize(0,-100,10,0,0,2,12,0,0,50,11,0,'WWI')"/>
+			</div>
+			<div class="option">
+				<input type="button" value="exp" name="exp" class="btn" ng-click="customize(0,-100,40,0,0,2,12,0,0,0,11,0,'WWI')"/>
+			</div>
+		</div>
+		<div class="options" ng-class="{ active:panel.isSelected(2)}">
+			<div class="option">
+				<input type="button" value="WWII" name="WWII" class="btn" ng-click="customize(-6,-100,3,0,0,1,20,10,0,0,5,10,'WWII')"/>
+			</div>
+			<div class="option">
+				<input type="button" value="action" name="action" class="btn" ng-click="customize(-6,-100,3,0,0,2,20,10,0,0,5,10,'WWII')"/>
+			</div>
+			<div class="option">
+				<input type="button" value="sepia" name="sepia" class="btn" ng-click="customize(-6,-100,3,0,0,1,20,10,0,50,5,10,'WWII')"/>
+			</div>
+			<div class="option">
+				<input type="button" value="exp" name="exp" class="btn" ng-click="customize(-6,-100,35,0,0,1,20,10,0,0,5,10,'WWII')"/>
+			</div>
+		</div>
+		<div class="options" ng-class="{ active:panel.isSelected(3)}">
+			<div class="option">
+				<input type="button" value="Korea" name="Korea" class="btn" ng-click="customize(-6,-100,3,0,0,0,20,10,0,0,2,10,'Korea')"/>
+			</div>
+			<div class="option">
+				<input type="button" value="action" name="action" class="btn" ng-click="customize(-6,-100,3,0,0,1,20,10,0,0,2,10,'Korea')"/>
+			</div>
+			<div class="option">
+				<input type="button" value="sepia" name="sepia" class="btn" ng-click="customize(-6,-100,3,0,0,0,20,10,0,50,2,10,'Korea')"/>
+			</div>
+			<div class="option">
+				<input type="button" value="exp" name="exp" class="btn" ng-click="customize(-6,-100,35,0,0,0,20,10,0,0,2,10,'Korea')"/>
+			</div>
+		</div>
+		<div class="options" ng-class="{ active:panel.isSelected(4)}">
+			<div class="option">
+				<input type="button" value="NAM" name="NAM" class="btn" ng-click="customize(1,25,12,0,0,1,20,0,0,50,4,3,'NAM')"/>
+			</div>
+			<div class="option">
+				<input type="button" value="action" name="action" class="btn" ng-click="customize(1,25,12,0,0,3,20,0,0,50,4,3,'NAM')"/>
+			</div>
+			<div class="option">
+				<input type="button" value="sepia" name="sepia" class="btn" ng-click="customize(1,25,12,0,0,1,20,0,0,80,4,3,'NAM')"/>
+			</div>
+			<div class="option">
+				<input type="button" value="exp" name="exp" class="btn" ng-click="customize(1,25,40,0,0,1,20,0,0,50,4,3,'NAM')"/>
+			</div>
+		</div>
+	</div>
+</div>

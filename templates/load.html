@@ -1,0 +1,16 @@
+<div id="loadPicture" >
+	<div style="height:15%;">
+		<form name="upload" ng-submit="uploadFile()">
+			<div class="inputs">
+				<input type="file" id="file" name="file" uploader-model="file" class="inputfile"/>
+				<label for="file">Choose a file</label>
+			</div>
+			<div class="inputs">
+				<input type="submit" class="btn" value="Load picture"/>
+			</div>
+		</form>
+	</div>
+	<div class="picturePreview" style="height:70%;">
+		<img id="output" src="./images/warning.png"/>
+	</div>
+</div>
